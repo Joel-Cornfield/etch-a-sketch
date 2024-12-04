@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <main>
+        <div class="settings">
+            <input id="color-picker" type="color" value="#000000">
+            <button id="colour-button">Colour Mode</button>
+            <button id="random-colour-button">Random Colours</button>
+            <button id="eraser-button">Eraser</button>
+            <button id="reset-button">Reset</button>
+            <div id="size">Grid Size: 16 x 16</div>
+            <input id="resize" type="range" min="1" max="60" value="16">
+        </div>
+        <div id="grid-container"></div>
+    </main>
+    <footer>
+        <p>
+            Copyright © 
+            <script>document.write(new Date().getFullYear())</script>
+            JoelCornfield
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

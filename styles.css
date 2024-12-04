@@ -1,0 +1,114 @@
+body {
+    font-family: 'Indie Flower', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #628e63;
+    margin: 0;
+    padding-top: 10px; /* Reduce the top padding to move everything up */
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 10px; /* Reduce bottom margin to move closer to the grid */
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 960px; /* Optional: Set max width for better layout */
+    margin-bottom: 30px; /* Reduce the space between the grid and footer */
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 3px solid #333;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Bring settings box closer to the grid */
+}
+
+#grid-container {
+    display: grid;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: 3px solid black;
+}
+
+.grid-cell {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    font-family: 'Indie Flower', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #628e63; /* Highlight with green color */
+    color: white;
+}
+
+.selected {
+    background-color: #628e63;
+    color: white;
+}
+
+input[type="range"] {
+    /* Style the slider */
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50; /* Green color for slider thumb */
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: -6px; 
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+input[type="range"]:hover {
+    background: #4CAF50; /* Change background color to green when hovered */
+}
+
+footer {
+    position: fixed; /* Keep footer at the bottom of the page */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #628e63;
+    padding: 10px 0;
+}
