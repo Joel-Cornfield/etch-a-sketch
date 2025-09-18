@@ -15,7 +15,7 @@ A fun, interactive Etch-a-Sketch–style drawing application built for [The Odin
 - **JavaScript (ES6)** – dynamic grid generation and drawing logic  
 
 ## 🚀 Live Demo  
-[Check it out here!]([https://your-live-demo-link.com](https://joel-cornfield.github.io/etch-a-sketch/))  
+[Check it out here!]([https://joel-cornfield.github.io/etch-a-sketch/])  
 
 ## 📸 Preview  
 <img width="949" height="486" alt="image" src="https://github.com/user-attachments/assets/fed27028-a12c-4eb0-9c22-b62f0499e881" />
